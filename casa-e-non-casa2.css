@@ -1,0 +1,96 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(225 71 203);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenitoreNomeNegozio {
+  height: 10%;
+  width: 100%;
+  background-color: coral;
+}
+
+#nomeNegozio,
+#indirizzoNegozio,
+#vecchioNomeNegozio {
+  color: rgb(170, 42, 42);
+  font-weight: bold;
+}
+
+#tabellaProdotti {
+  height: 55%;
+  width: 80%;
+  background-color: #afab5e;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.casella-prodotto {
+  height: 90%;
+  width: 17%;
+  background-color: lightcoral;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: white;
+  border: 2px solid #a89e9e;
+}
+
+.contenitore-immagine-prodotto {
+  height: 40%;
+  width: 100%;
+}
+
+.immagine-prodotto {
+  height: 100%;
+  width: 90%;
+  object-fit: contain;
+}
+
+.titolo-prodotto {
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.prezzo-prodotto {
+  font-weight: bold;
+}
+
+#commentoUtente {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#inputUtente {
+  height: 80%;
+  width: 80%;
+}
+
+footer {
+  height: 15%;
+  width: 100%;
+  background-color: coral;
+}
+
+#bottoniModifiche {
+  height: 5%;
+  width: 100%;
+}
